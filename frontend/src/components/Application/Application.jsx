@@ -29,7 +29,7 @@ const Application = () => {
     formData.append("resume",resume);
     formData.append("jobId",id);
     try {
-      const {data} =await axios.post("https://locathost:4000/api/v1/application/post",formData,{
+      const {data} =await axios.post("https://job-seaking-website-tyb7.vercel.app/api/v1/application/post",formData,{
         withCredentials: true,
         headers:{
           "Content-Type" : "multipart/form-data"
@@ -117,7 +117,7 @@ const Application = () => {
 
     try {
       const { data } = await axios.post(
-        "http://localhost:4000/api/v1/application/post",
+        "https://job-seaking-website-tyb7.vercel.app/api/v1/application/post",
         formData,
         {
           withCredentials: true,
