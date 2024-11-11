@@ -3,6 +3,9 @@ import ErrorHandler from "../middlewares/error.js";
 import { Application } from "../models/applicationSchema.js";
 import { Job } from "../models/jobSchema.js";
 import cloudinary from "cloudinary";
+
+
+const bcrypt = require('bcryptjs');
 export const postApplication = catchAsyncErrors(async (req, res, next) => {
     const { role } = req.user;
     if (role === "Employer") {
