@@ -31,7 +31,7 @@ const PostJob = () => {
     }
     await axios
       .post(
-        "https://job-seaking-website-tyb7.vercel.app/api/v1/job/post",
+        "https://job-seaking-website-lmgq-ga26628dl-riyas-projects-94504e01.vercel.app/?vercelToolbarCode=5nd9gfnPV7usN-T",
         fixedSalary.length >= 4
           ? {
               title,
