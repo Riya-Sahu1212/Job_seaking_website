@@ -12,7 +12,7 @@ const JobDetails = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:4000/api/v1/job/${id}`, {
+      .get(`https://job-seaking-website-lmgq-ga26628dl-riyas-projects-94504e01.vercel.app/?vercelToolbarCode=5nd9gfnPV7usN-T`, {
         withCredentials: true,
       })
       .then((res) => {
