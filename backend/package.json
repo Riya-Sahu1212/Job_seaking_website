@@ -9,7 +9,7 @@
     "postinstall": "npm rebuild bcrypt"
   },
   "engines": {
-    "node": "16.x"
+    "node": "18.x"
   },
   "author": "",
   "license": "ISC",
