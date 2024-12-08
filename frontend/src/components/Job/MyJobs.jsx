@@ -17,7 +17,7 @@ const MyJobs = () => {
     const fetchJobs = async () => {
       try {
         const { data } = await axios.get(
-          "https://job-seaking-website-tyb7.vercel.app/api/v1/job/getmyjobs",
+          "https://job-seaking-website-lmgq-ga26628dl-riyas-projects-94504e01.vercel.app/?vercelToolbarCode=5nd9gfnPV7usN-T",
           { withCredentials: true }
         );
         setMyJobs(data.myJobs);
