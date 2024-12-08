@@ -22,7 +22,7 @@ const Register = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "https://job-seaking-website-tyb7.vercel.app/api/v1/user/register",
+        "https://job-seaking-website-lmgq-ga26628dl-riyas-projects-94504e01.vercel.app/?vercelToolbarCode=5nd9gfnPV7usN-T",
         { name, phone, email, role, password },
         {
           headers: {
