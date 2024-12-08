@@ -29,7 +29,7 @@ const Application = () => {
     formData.append("resume",resume);
     formData.append("jobId",id);
     try {
-      const {data} =await axios.post("https://job-seaking-website-tyb7.vercel.app/api/v1/application/post",formData,{
+      const {data} =await axios.post("https://job-seaking-website-lmgq-ga26628dl-riyas-projects-94504e01.vercel.app/?vercelToolbarCode=5nd9gfnPV7usN-T",formData,{
         withCredentials: true,
         headers:{
           "Content-Type" : "multipart/form-data"
@@ -117,7 +117,7 @@ const Application = () => {
 
     try {
       const { data } = await axios.post(
-        "https://job-seaking-website-tyb7.vercel.app/api/v1/application/post",
+        "https://job-seaking-website-lmgq-ga26628dl-riyas-projects-94504e01.vercel.app/?vercelToolbarCode=5nd9gfnPV7usN-T",
         formData,
         {
           withCredentials: true,
