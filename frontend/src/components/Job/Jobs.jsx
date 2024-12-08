@@ -10,7 +10,7 @@ const Jobs = () => {
   useEffect(() => {
     try {
       axios
-        .get("https://job-seaking-website-tyb7.vercel.app/api/v1/job/getall", {
+        .get("https://job-seaking-website-lmgq-ga26628dl-riyas-projects-94504e01.vercel.app/?vercelToolbarCode=5nd9gfnPV7usN-T", {
           withCredentials: true,
         })
         .then((res) => {
